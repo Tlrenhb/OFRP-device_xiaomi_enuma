@@ -1,9 +1,9 @@
-# 橙 狐 (OFRP) for Xiaomi Pad 5 Pro (elish)  
-使用小米平板 5 Pro，MIUI 14（安卓13）制作，适用于橙狐安卓12分支  
+# 橙 狐 (OFRP) for Xiaomi Pad 5 Pro 5G(enuma)  
 
 ![OFRP](https://image.ibb.co/cTMWux/logo.jpg "OFRP")  
 ====================================================
 # 目前进度
+基于elish设备树修改，仅修改了fox_12.1-a15分支
 屏幕画面可以显示，但是有条纹闪烁、花屏现象  
 锁屏后再点亮触屏生效，条纹闪烁、花屏现象消失  
 为了保证ui正常不错位，屏幕右半边留空  
