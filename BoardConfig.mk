@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/elish
+DEVICE_PATH := device/xiaomi/enuma
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
