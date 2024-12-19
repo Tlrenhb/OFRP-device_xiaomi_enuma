@@ -6,7 +6,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := elish
+PRODUCT_RELEASE_NAME := enuma
 
 # 引用默认的编译配置文件，core_64_bit必须先于其他引用，否则不生效
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -19,15 +19,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 # Inherit from elish device
-$(call inherit-product, device/xiaomi/elish/device.mk)
+$(call inherit-product, device/xiaomi/enuma/device.mk)
 
 # Inherit some common TWRP stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := elish
-PRODUCT_NAME := twrp_elish
+PRODUCT_DEVICE := enuma
+PRODUCT_NAME := twrp_enuma
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := M2105K81AC
+PRODUCT_MODEL := M2105K81C
 PRODUCT_MANUFACTURER := Xiaomi
-#PRODUCT_RELEASE_NAME := Xiaomi Pad 5 Pro
+#PRODUCT_RELEASE_NAME := Xiaomi Pad 5 Pro 5G
